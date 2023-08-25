@@ -1,0 +1,21 @@
+{
+  "name": "@compilorama/cli",
+  "version": "0.0.0",
+  "description": "Compilorama's CLI",
+  "main": "./src/index.js",
+  "bin": {
+    "comp": "./src/index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "compilorama",
+    "cli"
+  ],
+  "author": "Rafael Camargo <hello@rafaelcamargo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
